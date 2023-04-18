@@ -93,7 +93,7 @@ define('APP_TITLE', "Merchantisers Store");
 if($_SERVER['SERVER_NAME'] == 'localhost'){
 	define("BASEURL", "http://localhost/store/");
 }else{
-	define("BASEURL", "http://merchantisers.com/");
+	define("BASEURL", "https://merchantisers.com/");
 }
 define("CSS", BASEURL."assets/css/");
 define("FONTS", BASEURL."assets/fonts/");
